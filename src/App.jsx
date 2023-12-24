@@ -52,7 +52,7 @@ function App() {
           ? {
               ...item,
               quantity:
-                action === "add" ? item.quantity + 1 : CSSMathMax.max(0,item.quantity - 1),
+                action === "add" ? item.quantity + 1 : Math.max(0,item.quantity - 1),
             }
           : item
       );
