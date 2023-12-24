@@ -132,4 +132,5 @@ button {
 }
 
 .cart-item .quantity-actions .add-quantity {
+  display:flex;
 }
